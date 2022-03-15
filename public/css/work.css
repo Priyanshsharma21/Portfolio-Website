@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Quicksand&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:wght@200&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,500;1,800&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=Josefin+Sans:wght@300&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.project {
+  font-size: 5rem;
+  font-weight:700;
+  color: black;
+  font-family: 'Halant', serif;
+  margin-bottom: 10px;
+}
+
+.pro-disc {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+  font-family: 'Halant', serif;
+  margin-top: 45px;
+
+}
+
+.rowpro {
+  margin: 30px;
+  margin-left: 100px;
+}
+
+
+.pro-1{
+    margin-top: 100px;
+}
+
+.pro-img a img{
+    width: 510px;
+    height: 350px;
+    border-radius: 10px;
+    transition: width 2s linear 2s;
+
+}
+.pro-img a img:hover{
+    width: 510px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 70px rgb(0 0 0 / 30%);
+    transform: scale(1.05);
+}
+
+.col-proabout .proname{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.col-proabout .proab{
+    font-family: 'Halant', serif;
+    margin-top: 19px;
+    font-size: 2.1rem;
+    margin-left: 4px;
+    font-weight: 500;
+}

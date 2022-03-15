@@ -165,3 +165,14 @@ html {
       bottom: 100%;
     }
   }
+
+  button[type="submit"]{
+    background: rgba(0,0,0,0);
+    color: white;
+    box-sizing: border-box;
+    box-shadow: blue;
+    text-decoration: none;
+    font-size: 1rem;
+    border: aliceblue;
+
+  }
