@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+
+.name{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.name h3{
+    font-size: 4rem;
+
+}
+
+
+
+.wrapper {
+    height: 20vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 30ch;
+    animation: typing 2s steps(40), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+  .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .btn button{
+      color: rgba(0, 0, 0, 0);
+      width: 40px;
+      height: 30px;
+  }
+
+
+  /* button effect  */
+
+
+  .span-boy{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  .span-boy a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .span-boy a:before,
+  .span-boy a:after{
+    position: absolute;
+    content: "Read More";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .span-boy a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .span-boy a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .span-boy a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
+ 

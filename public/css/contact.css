@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Quicksand&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:wght@200&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,500;1,800&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+.cont-main {
+  width: 100%;
+  height: 1300px;
+}
+
+.title-text {
+  width: 100%;
+  height: 270px;
+}
+
+.post-row {
+  width: 100%;
+  height: 800px;
+  border-bottom: 3px solid black;
+}
+
+.colofduty {
+  height: 700px;
+}
+
+.title-box {
+  margin-left: 49px;
+}
+
+.title-box h1 {
+  font-family: "Prompt", sans-serif;
+  font-size: 7.5rem;
+  background: linear-gradient(to right, #00c5ab, #00ffc8, #00c3ff, #00ffaa);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bolder;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+.title-box .pony-p {
+  font-size: 2rem;
+  font-family: "Prompt", sans-serif;
+  margin-top: 15px;
+  margin-left: 29px;
+}
+
+.title-box em {
+  font-size: 1.4rem;
+  font-family: "Prompt", sans-serif;
+  margin-left: 25px;
+  font-weight: 200;
+}
+
+.gif-me video {
+  width: 481px;
+  height: 570px;
+  border-radius: 10px;
+}
+
+.fill-out {
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+  color: gray;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.fill-out h1 {
+  font-size: 1.7rem;
+}
+
+.form-me {
+}
+
+.form-karo {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.form-karo label,
+span {
+  padding: 10px;
+  margin-bottom: 6px;
+  font-size: 1.5rem;
+}
+.form-karo input {
+  padding: 10px;
+  margin-bottom: 0px;
+  height: 44px;
+}
+.mb {
+  margin-bottom: 10px;
+}
+
+.form-karo-1 {
+  margin-top: 21px;
+  margin-left: 13px;
+}
+
+.my-btn {
+  user-select: auto;
+  width: 93px;
+  height: 40px;
+  font-size: 2rem;
+  font-family: "Nanum Gothic";
+  margin-left: 11px;
+}
+
+.ssm11 .socialh {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Prompt", sans-serif;
+}
+
+.ssm11 {
+  margin-top: 30px;
+}
+
+.ssm11 .gold,
+.social-m {
+  font-family: "Prompt", sans-serif;
+  text-decoration: none;
+  color: gray;
+  font-size: 2rem;
+  margin-top: 10px;
+  transition: color 0.2s linear 0.2s;
+  transition: text-decoration 0.2s linear 0.2s;
+}
+
+.ssm11 .social-m:hover {
+  font-family: "Prompt", sans-serif;
+  color: rgb(0, 189, 179);
+  font-size: 2rem;
+  margin-top: 10px;
+  text-decoration: underline black;
+}
+
+
+/* login regiuster */
+
+
+.login a {
+  text-decoration:none;
+  color:#FFF;
+}
+
+
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button.victoria-two {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.victoria-three {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-three:after {
+	background: #D24D57;
+	opacity: .5;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+	height: 140%;
+	opacity: 1;
+}

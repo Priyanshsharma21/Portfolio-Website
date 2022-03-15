@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Quicksand&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:wght@200&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,500;1,800&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap");
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background: linear-gradient(rgb(236, 235, 235), rgb(255, 255, 255), #edc2d8ff);
+  /* background-color: white; */
+}
+
+.about-bar {
+  display: flex;
+  flex-direction: row;
+  /* position: fixed;
+  top: 2px;
+  width: 100%; */
+}
+
+.footerp-ab {
+  position: absolute;
+  bottom: 0px;
+  position: sticky;
+}
+
+.footer-about {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.ul-classic {
+  display: flex;
+  flex-direction: row;
+  padding-left: 393px;
+  padding-bottom: 40px;
+}
+
+.ul-classic li a {
+  text-decoration: none;
+}
+
+.myname p {
+  font-size: 2rem;
+}
+.myname {
+  padding-bottom: 10px;
+  /* padding-right: 10px; */
+}
+
+.main {
+  height: 1340px;
+  width: 100%;
+}
+
+.one {
+  height: 600px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.blank-col {
+  height: 200px;
+  margin: 10px;
+}
+
+.img-col {
+  height: 200px;
+  margin: 10px;
+}
+
+.img-col img {
+  width: 371px;
+  height: 354px;
+  border-radius: 100px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.cont-col {
+  height: 200px;
+  margin: 10px;
+  margin-left: 82px;
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 90px;
+}
+
+.ntmy {
+  height: 20vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.typing-demo-2 {
+  width: 20ch;
+  animation: typings 2s steps(40), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Source Code Pro", monospace;
+  font-size: 5em;
+  font-weight: bolder;
+  color: rgb(0, 255, 213);
+  padding-bottom: 100px;
+}
+
+@keyframes typings {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+
+.content p {
+  font-size: 2.8rem;
+  font-family: "Nanum Gothic", sans-serif;
+  color: rgb(59, 59, 59);
+  font-weight: 300;
+}
+
+.two {
+  height: 450px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.info-cols {
+  border-right: 0.5px solid rgb(145, 145, 145);
+  border-left: 0.5px solid rgb(145, 145, 145);
+  height: 350px;
+}
+
+.line {
+  color: rgb(95, 95, 95);
+  /* width: 2px; */
+}
+
+
+
+
+
+.btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn1 button{
+  color: rgba(0, 0, 0, 0);
+  width: 40px;
+  height: 30px;
+}
+
+
+/* button effect  */
+
+
+.span-boy-1{
+position: relative;
+display: inline-flex;
+width: 180px;
+height: 55px;
+margin: 0 15px;
+perspective: 1000px;
+}
+.span-boy-1 a{
+font-size: 19px;
+letter-spacing: 1px;
+transform-style: preserve-3d;
+transform: translateZ(-25px);
+transition: transform .25s;
+font-family: 'Montserrat', sans-serif;
+
+}
+.span-boy-1 a:before,
+.span-boy-1 a:after{
+position: absolute;
+content: "Downlode Resume";
+height: 55px;
+width: 180px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 5px solid black;
+box-sizing: border-box;
+border-radius: 5px;
+text-align: center;
+}
+.span-boy-1 a:before{
+color: #fff;
+background: #000;
+transform: rotateY(0deg) translateZ(25px);
+}
+.span-boy-1 a:after{
+color: #000;
+transform: rotateX(90deg) translateZ(25px);
+}
+.span-boy-1 a:hover{
+transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.paraompo{
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: rgb(95, 95, 95);
+}
+
