@@ -15,6 +15,14 @@
   height: 1300px;
 }
 
+.mkck{
+  
+    padding: 37.5px;
+    margin: 0px 0;
+  
+}
+
+
 .title-text {
   width: 100%;
   height: 270px;
@@ -28,6 +36,11 @@
 
 .colofduty {
   height: 700px;
+}
+.colofduty2 {
+  height: 741px;
+  border: solid 3px #474544;
+  border-radius: 20px;
 }
 
 .title-box {
@@ -71,18 +84,56 @@
   color: gray;
   margin-top: 5px;
   margin-left: 10px;
+  text-align: center;
 }
 
 .fill-out h1 {
-  font-size: 1.7rem;
+  font-size: 4.7rem;
+  letter-spacing: 4px;
 }
 
+.underline1 {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.form-style{
+  background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+  place-content: "I'D Like To Chat About";
+}
 .form-me {
 }
 
 .form-karo {
   padding: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 .form-karo label,
@@ -239,4 +290,71 @@ a.animated-button.victoria-three:after {
 a.animated-button.victoria-three:hover:after {
 	height: 140%;
 	opacity: 1;
+}
+
+
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1.575em;
+  font-weight: bold;
+  outline: none;
+  padding: 5px 2px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 4px;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+
+
+.bot {
+  width: 300px;
+  height: 80px;
+  background: dodgerblue;
+  border-radius: 6px;
+  transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin-top: 45px;
+}
+
+.boy svg {
+  transform: rotate(180deg);
+  transition: all .5s;
+}
+
+.button__circle {
+  width: 120px;
+  height: 120px;
+  background: mediumseagreen;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
+
+.bot:hover {
+  cursor: pointer;
+}
+
+.tick {
+  color: white;
+  font-size: 2em;
+  transition: all .9s;
+  margin-bottom: 62px;
 }

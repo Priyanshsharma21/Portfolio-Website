@@ -53,52 +53,65 @@
                 <div class="col-6 colofduty gif-me">
                     <video width="100px" autoplay muted loop src="/img/VID_20220315_002808_01.mp4" type></video>
                 </div>
-                <div class="col-6 colofduty">
+                <div class="col-6 colofduty2">
                     <div class="row fill-out">
-                        <h1>Fill out the form below.</h1>
+                        <h1>&#8226; Keep In Touch &#8226;</h1>
                     </div>
+                    <div class="underline1">
+                    </div>
+
                     <div class="row form-me">
 
-                        <form action="/contact" method="post">
+                        <form action="/contact" method="post" class="mkck">
                             <div class="mb-3">
-                                <fieldset class="form-karo-1">
-                                    <legend for="disabledTextInput" class="form-label">Name*</legend>
-                                </fieldset>
+
 
                                 <div class="row">
                                     <div class="col">
                                         <div class="fname form-karo">
-                                            <input style="font-size:17px;" type="text" id="disabledTextInput" class="form-control" name="fname">
-                                            <span for="disabledTextInput" class="form-label">First Name*</span>
+                                            <label for="fname"></label>
+                                            <input style="font-size:17px;" type="text" id="disabledTextInput"
+                                                class="form-control form-style" name="fname"
+                                                placeholder="My First Name Is">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="lname form-karo">
-                                            <input style="font-size:17px;" type="text" id="disabledTextInput" class="form-control" name="lname">
-                                            <span for="disabledTextInput" class="form-label">Last Name*</span>
+                                            <label for="lname"></label>
+                                            <input style="font-size:17px;" type="text" id="disabledTextInput"
+                                                class="form-control form-style" name="lname"
+                                                placeholder="My Last Name Is">
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="email form-karo">
-                                    <span for="disabledTextInput">Email Adress*</span>
-                                    <input style="font-size:17px;" type="email" id="disabledTextInput" class="form-control" name="email">
+                                    <label for="email"></label>
+                                    <input style="font-size:17px;" type="email" id="disabledTextInput"
+                                        class="form-control form-style" name="email" placeholder="My Email Is">
                                 </div>
 
 
 
                                 <div class="subject form-karo">
-                                    <span for="disabledTextInput">Subject*</span>
-                                    <input style="font-size:17px;" type="text" id="disabledTextInput" class="form-control" name="subject">
+                                    <label for="subject"></label>
+                                    <select placeholder="Subject line" style="font-size: 17px;" name="subject" id="subject_input" required class="form-style">
+                                        <option disabled hidden selected>Subject line</option>
+                                        <option>I'd like to start a project</option>
+                                        <option>I'd like to ask a question</option>
+                                        <option>I'd like to make a proposal</option>
+                                    </select>
                                 </div>
 
                                 <div class="form-floating form-karo">
-                                    <span for="floatingTextarea2" class="mb">Message*</span>
-                                        <textarea style="font-size:17px;" name="message" class="form-control" placeholder="" id="floatingTextarea2"
-                                            style="height: 100px"></textarea>
+                                    <label for="message"></label>
+                                    <textarea placeholder="I'D Like To Chat About"   style="font-size:17px;height: 100px" name="message" class="form-control form-style textarea" id="floatingTextarea2">I'D Like To Chat About</textarea>
                                 </div>
 
-                                <button class="btn btn-primary my-btn" type="submit" name="button">Publish</button>
+                                <div class="submit">
+                                    <button class="btn btn-primary my-btn" type="submit" name="button" id="form_button">Publish</button>
+                                  </div>
+                                
 
 
                             </div>
@@ -111,27 +124,33 @@
             <div class="row call-karo">
                 <div class="col ssm11">
                     <h1 class="socialh">Connect</h1>
-                    <p class="gold"><a class="social-m" href="">Instagram</a></p>
-                    <p class="gold"><a class="social-m" href="">LinkedIn</a></p>
-                    <p class="gold"><a class="social-m" href="">Twitter</a></p>
+                    <p class="gold"><a class="social-m" href="https://www.instagram.com/priyansh_sharma_21/">Instagram</a></p>
+                    <p class="gold"><a class="social-m" href="https://www.linkedin.com/in/priyansh-sharma-7b9520223/">LinkedIn</a></p>
+                    <p class="gold"><a class="social-m" href="https://twitter.com/Priyansh_____">Twitter</a></p>
+                    <p class="gold"><a class="social-m" href="https://github.com/Priyanshsharma21">GitHub</a></p>
                 </div>
                 <div class="col ssm11">
                     <h1>Contact</h1>
                     <p class="gold">799.993.7157</p>
-                    <p class="gold"><a class="social-m" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=piyuindia4@gmail.com" target="_blank">Gmail</a></p>
+                    <p class="gold"><a class="social-m"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=piyuindia4@gmail.com"
+                            target="_blank">Gmail</a></p>
                 </div>
                 <div class="col login">
-                    
-                    <a href="/login" class="btn btn-sm animated-button victoria-two" href="/register" role="button" alt="Button" style="margin-top: 57px;">Login</a>
+
+                    <a href="/login" class="btn btn-sm animated-button victoria-two" href="/register" role="button"
+                        alt="Button" style="margin-top: 57px;">Login</a>
+                        
                 </div>
                 <div class="col login">
-                    <a href="/register" class="btn btn-sm animated-button victoria-three" href="/login" role="button" alt="Button" style="margin-top: 57px;">Register</a> 
+                    <a href="/register" class="btn btn-sm animated-button victoria-three" href="/login" role="button"
+                        alt="Button" style="margin-top: 57px;">Register</a>
                 </div>
-    
+
             </div>
         </div>
 
-       
+
 
 
 

@@ -53,26 +53,32 @@
 
             </div>
             <div class="row rowpro pro-1">
-               <div class="col col-thumbnail">
-                <div class="pro-img">
-                    <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
+                <div class="col col-thumbnail">
+                    <div class="pro-img">
+                        <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
+                    </div>
+                    <!-- <form action="/work" method="post" class="kbp">
+                        <input type="text" id="number" value="0" name="likes" class="ipadd" />
+                        <div class="placement">
+                            <button class="heart" name="submit" type="submit" onclick="incrementValue()" value="Increase"></button>
+                        </div>
+                    </form> -->
                 </div>
-               </div>
-               <div class="col col-proabout">
-                   <h1 class="proname">
-                       Web Scrapper with Automation
-                   </h1>
-                   <p class="proab">NodeJS</p>
-                   <p class="proab">Puppetear</p>
-                   <p class="proab">Javascript</p>
+                <div class="col col-proabout">
+                    <h1 class="proname">
+                        Web Scrapper with Automation
+                    </h1>
+                    <p class="proab">NodeJS</p>
+                    <p class="proab">Puppetear</p>
+                    <p class="proab">Javascript</p>
 
-               </div>
+                </div>
             </div>
             <div class="row rowpro pro-1">
                 <div class="col col-thumbnail">
-                 <div class="pro-img">
-                     <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
-                 </div>
+                    <div class="pro-img">
+                        <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
+                    </div>
                 </div>
                 <div class="col col-proabout">
                     <h1 class="proname">
@@ -82,14 +88,14 @@
                     <p class="proab">EJS</p>
                     <p class="proab">NodeJS</p>
                     <p class="proab">MongoDB(Mongoose Atlas)</p>
- 
+
                 </div>
-             </div>
-             <div class="row rowpro pro-1">
+            </div>
+            <div class="row rowpro pro-1">
                 <div class="col col-thumbnail">
-                 <div class="pro-img">
-                     <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
-                 </div>
+                    <div class="pro-img">
+                        <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
+                    </div>
                 </div>
                 <div class="col col-proabout">
                     <h1 class="proname">
@@ -99,14 +105,14 @@
                     <p class="proab">Passport.js, NodeJS</p>
                     <p class="proab">MongoDB</p>
                     <p class="proab">Authentication</p>
- 
+
                 </div>
-             </div>
-             <div class="row rowpro pro-1">
+            </div>
+            <div class="row rowpro pro-1">
                 <div class="col col-thumbnail">
-                 <div class="pro-img">
-                     <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
-                 </div>
+                    <div class="pro-img">
+                        <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
+                    </div>
                 </div>
                 <div class="col col-proabout">
                     <h1 class="proname">
@@ -115,14 +121,15 @@
                     <p class="proab">NodeJS</p>
                     <p class="proab">Puppetear</p>
                     <p class="proab">Javascript</p>
- 
+
+
                 </div>
-             </div>
-             <div class="row rowpro pro-1">
+            </div>
+            <div class="row rowpro pro-1">
                 <div class="col col-thumbnail">
-                 <div class="pro-img">
-                     <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
-                 </div>
+                    <div class="pro-img">
+                        <a href="#"><img src="/img/1640168177-picsay.jpg" alt=""></a>
+                    </div>
                 </div>
                 <div class="col col-proabout">
                     <h1 class="proname">
@@ -131,9 +138,9 @@
                     <p class="proab">NodeJS</p>
                     <p class="proab">Puppetear</p>
                     <p class="proab">Javascript</p>
- 
+
                 </div>
-             </div>
+            </div>
         </div>
 
 
@@ -148,9 +155,20 @@
 
     </div>
 
+    <script>
+        function incrementValue() {
+            var value = parseInt(document.getElementById('number').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            document.getElementById('number').value = value;
+        }
 
-
-
+        $(function () {
+            $(".heart").on("click", function () {
+                $(this).toggleClass("is-active");
+            });
+        });
+    </script>
 
 
 

@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const md5 = require('md5');
+const path = require('path');
 
 const app = express();
 
@@ -33,7 +34,6 @@ const subscriberSchema = new mongoose.Schema({
 });
 
 const Subscriber = new mongoose.model("Subscriber", subscriberSchema);
-
 
 
 
@@ -98,12 +98,12 @@ app.post('/register',function(req,res){
         if(err){
             console.log(err);
         }else{
-            res.redirect("/");
+            res.redirect("/work");
         }
     })
 })
 
-app.post(function(req,res){
+app.post('/login',function(req,res){
     
     const username = req.body.username;
     const password = md5(req.body.password);
@@ -114,11 +114,16 @@ app.post(function(req,res){
         }else{
             if(foundUser){
                 if(foundUser.password===password){
-                    res.redirect("/")
+                    res.redirect("/work")
                 }
             }
         }
     })
+})
+
+app.post('/work',function(req,res){
+    let likes = req.body.likes;
+    console.log(likes)
 })
 
 

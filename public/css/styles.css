@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=Josefin+Sans:wght@500&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Source+Code+Pro:wght@300;700&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+
 html {
   min-height: 100%;
   position: relative;
 }
 
-body{
-    background: linear-gradient(#0091ff,#ebcfb6);
+body {
+  background: linear-gradient(#0091ff, #ebcfb6);
 }
-
 
 .container-fluid {
   padding-top: 70px;
@@ -18,40 +20,33 @@ body{
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  transition: all .65s cubic-bezier(.7,.3,0,1);
+
 }
 
 .navbar-nav li a {
-    color: #000000 !important;
-    font-weight: 500;
-  }
-
+  color: #000000 !important;
+  font-weight: 500;
+}
 
 .navbar-nav li a:hover {
   color: #000000ab !important;
   /* text-decoration:underline; */
-  
-  
 }
 
-
-
-
-
-
- .navbar-inner {
-    background: rgba(0,0,0,0);
- }
-
- 
-
+.navbar-inner {
+  background: rgba(0, 0, 0, 0);
+}
 
 .footer-padding {
   padding-bottom: 60px;
-  position:absolute;
-    width:100%;
-    bottom:0px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
 }
 
 .footer {
@@ -62,7 +57,6 @@ body{
   height: 60px;
   background-color: #ffffff;
   /* position: sticky; */
-
 }
 
 .footer p {
